@@ -1,0 +1,33 @@
+.login-form{
+        border: 1pt var(--black) solid;
+        border-radius: 0.5rem;
+        -webkit-border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+        margin-left: 23rem;
+        width: 30rem;
+        height: 15rem;
+        text-align: center;
+    
+}
+
+.login-form input{
+    width: 20rem;
+}
+
+.login-form>h3{
+    color: var(--black);
+}
+
+.login-form button{
+    width: 4rem;
+    height:2rem;
+    text-align: center;
+    font-family: monospace;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+}

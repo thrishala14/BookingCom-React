@@ -1,0 +1,122 @@
+.hotel-info-page h3, .hotel-info-page h2{
+    color: var(--black);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2.5rem;
+}
+
+
+.hotel-details{
+    display: flex;
+    width: 100%;
+    margin-left: 5rem;
+}
+
+
+.hotel-info-page>p{
+    color: var(--black);
+
+}
+
+.search-bar-hotel{
+    background-color: var(--yellow);
+    width: 20%;
+    height: 60%;
+    position:absolute;
+    left: 4rem;
+    top: 14rem;
+    padding: 0.4rem;
+    margin-left: -1.5rem;
+}
+
+.search-bar-hotel input{
+    width: 90%
+}
+
+.search-bar-hotel p{
+    font-size: smaller;
+    padding: 0;
+    margin: 0;
+}
+
+.hotel-info-page a{
+    font-size: small;
+}
+
+.hotel-info-page{
+    padding-left: 2.5rem;
+}
+
+.hotel-det h2{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: -2rem;
+}
+
+.hotel-det{
+    margin-left: 7rem;
+}
+
+.search-bar-hotel button{
+    width:90%
+}
+
+.search-bar-hotel h3{
+    margin:0;
+    padding: 0;
+    padding-top: 1rem;
+}
+
+.hotel-det p{
+    margin: 0;
+    padding: 0;
+}
+
+.reserve-room{
+    position: relative;
+    top: 1rem;
+    left:4rem;
+    font-size: larger;
+}
+
+.reserve-room button{
+    padding: 0.5rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.tag-cloud {
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 25px;
+    margin-top: 8px;
+    margin-left: 0.5rem;
+    box-shadow: var(--tag-border-blue) 0px 0px 0px 1px;
+  }
+
+  .amenities svg {
+    margin: 0
+  }
+
+  .amenities h2{
+    margin-left: -2rem;
+  }
+
+  .admin-access button{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+  .admin-access #modifyHotel {
+    padding: 0.3rem;
+  }
+
+  .admin-access #deleteHotel{
+    background-color: var(--red);
+  }

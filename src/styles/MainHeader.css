@@ -1,0 +1,21 @@
+.main-header{
+    background-color: var(--blue);
+}
+
+.checkboxs>input{
+    width: 1rem;
+    font-size: large;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+    left: 1.5rem;
+    margin-left: 0.5rem
+}
+
+.checkboxs>label{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 1.5rem;
+    top:-0.9rem
+}

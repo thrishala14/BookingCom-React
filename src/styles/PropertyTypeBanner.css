@@ -1,0 +1,68 @@
+.property-type-banner h2{
+    color: var(--black);
+    margin: 0.8rem;
+    margin-left: -2rem;
+}
+
+
+.property-type-banner img{
+    width: 18rem;
+    height: 15rem;
+    margin: -9pt;
+    padding: 0;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.property-type-banner .react-multi-carousel-item {
+    border: none !important;
+}
+
+.property-type-banner .react-multiple-carousel__arrow--right{
+    display: none;
+}
+
+.property-type-banner .react-multiple-carousel__arrow--left{
+    display: none;
+}
+
+.property-type-banner {
+    overflow: hidden !important;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.property-type-banner .hotel-name{
+    font-weight: bold;
+    margin-left: -1rem;
+    margin-bottom: 0;
+}
+
+.property-type-banner .MuiCard-root{
+    border: none !important;
+    box-shadow: none !important;
+    width: 22rem !important;
+}
+
+.property-type-banner .left-arrow{
+    position: relative;
+    top: -12rem;
+    z-index: 1;
+    background-color: var(--white);
+    padding: 0;
+
+}
+
+.property-type-banner .right-arrow{
+    position: relative;
+    top: -12rem;
+    left: 72rem;
+    z-index: 1;
+    background-color: var(--white);
+    padding: 0;
+    
+}
+

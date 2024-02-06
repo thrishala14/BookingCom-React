@@ -1,0 +1,10 @@
+.modify-modal-form .MuiFormControl-root{
+    width:100%;
+    margin-left: -4rem;
+}
+
+.modify-modal-form h2{
+    color: var(--black);
+    margin-left: -4.5rem;
+    margin-top: 0;
+}

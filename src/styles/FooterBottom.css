@@ -1,0 +1,20 @@
+.footer-bottom{
+    font-size: small;
+    text-align: center;
+}
+
+.copyright{
+    font-size: small;
+    margin: 3rem; 
+}
+
+img{
+    height: 2rem;
+    width: 5rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+}
+
+.footer-images{
+    text-align: center;
+}

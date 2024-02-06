@@ -1,0 +1,8 @@
+.bookings-display-page {
+    display: flex;
+}
+
+.bookings-display-page h2 {
+    margin-left: -2rem;
+    color: var(--black);
+}

@@ -1,0 +1,153 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: var(--blue);
+    color: var(--white);
+    margin: 0.4rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    border: none;
+    font-size: 1rem;
+}
+button>svg{
+  color: var(--white);
+}
+
+button:hover{
+    background-color: var(--button-hover-navy);
+}
+
+h2{
+    color: var(--white);
+    padding-left: 2rem;
+}
+
+.button-header{
+    display: flex;
+}
+
+
+.dropbtn {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 10rem;
+    margin-top: 0;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    left: 65rem;
+    background-color: var(--white);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px var(--box-shadow-black);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: var(--black);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown-content a:hover {background-color: var(--off-white)}
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:  var(--blue);
+    color: var(--white);
+  }
+
+  /* .button-header button:hover span {
+    visibility: visible;
+    display: block;
+    position:absolute;
+    background-color: var(--black);
+    color: var(--white);
+    top: 3.5rem;
+    font-size: small;
+    padding: 0.1rem;
+  } */
+  
+    button>span{
+      visibility: hidden;
+      display: none;
+    }
+
+    a > FontAwesome {
+      margin-right: 0.2rem;
+    }
+
+.button-header p{
+  color: var(--white);
+  margin-top: 1.8rem;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.button-header>div>p>a{
+  color: var(--white);
+  text-decoration: none;
+}
+
+.icon{
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .topnav button {display: none;}
+  .topnav .icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.dropbtn p{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.dropbtn span{
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  font-size: 13pt ;
+  font-weight: 400;
+}
+
+.avatar-letter{
+  font-size: smaller !important;
+  font-weight: 300 !important;
+  margin: 0 !important;
+}

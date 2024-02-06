@@ -1,0 +1,52 @@
+.offers h2, p{
+    color: var(--black);
+    margin: 0;
+}
+
+.offers h2{
+    margin-left: -2rem;
+    margin-bottom: 0.2rem;
+}
+
+.offers{
+    overflow: hidden;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.offers .MuiCard-root, .offers .MuiPaper-root{
+    width: 100%;
+    margin-right: 1rem;
+    margin-left: -3rem;
+    padding: 0.7rem;
+    height: 7rem;
+}
+
+.offers .react-multi-carousel-item {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+} 
+
+.offers img{
+    width: 7rem;
+    height: 7rem;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+
+.offers .react-multiple-carousel__arrow--right{
+    display: none;
+}
+
+.offers button{
+    background-color: var(--button-blue);
+    color: var(--white);
+}
+
+.offers button:hover{
+    background-color: var(--white);
+    border: 0.6pt var(--button-blue) solid;
+    color: var(--button-blue);
+}

@@ -1,0 +1,49 @@
+.bookings-card .card{
+    width:95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookings-card{
+    width: 95%;
+}
+.bookings-card .card img{
+    width: 20rem;
+    height: 10rem;
+    margin: 1rem;
+}
+
+.bookings-card h2{
+    color: var(--black);
+    margin-left: -2rem;
+}
+
+.price .subscript{
+    font-size: x-small;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.price .amount{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: large;
+}
+
+.price{
+    position: relative;
+    top: 3rem;
+    left: 12rem;
+}
+
+.head .address{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: large;
+    
+}
+
+.head h2{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

@@ -1,0 +1,70 @@
+.hotel-availability h2{
+    margin-left: -2rem;
+}
+
+.search-bar-availability{
+    background-color: var(--yellow);
+    padding: 0;
+    width: 80%;
+}
+
+.search-bar-availability input {
+    width: 48%;
+}
+
+.search-bar-availability button{
+    width: 31%;
+    height: 2.5rem;
+    margin: 0;
+}
+
+.hotel-availability table{
+    width: 95%;
+    margin-top: 1.5rem;
+    border-collapse: collapse;
+}
+
+.hotel-availability th{
+    padding-right: 0.5rem;
+    border: 0.5pt var(--table-border-blue) solid;
+    font-size: 0.8rem;
+}
+
+.hotel-availability thead{
+    background-color: var(--button-blue);
+    color: var(--white);
+    text-align: center;
+}
+
+.hotel-availability ul{
+    display: block;
+    list-style-type: " - ";
+    text-align: justify;
+    font-size: small;
+    color: var(--green);
+}
+
+.hotel-availability li{
+    padding: 0.3rem;
+}
+
+.hotel-availability td{
+    text-align: center;
+    border: 0.5pt var(--table-border-blue) solid;
+}
+
+.hotel-availability td>.breakfast{
+    font-size: smaller;
+    justify-self: end;
+    color: var(--green);
+}
+
+.extra-charge{
+    color: var(--subtext-grey);
+    font-size: small;
+}
+
+.hotel-availability td>h2{
+    padding: 0;
+    margin: 0;
+}

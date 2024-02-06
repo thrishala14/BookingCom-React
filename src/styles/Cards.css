@@ -1,0 +1,90 @@
+.card:hover{
+    background-color: var(--white);
+    cursor: pointer;
+    transform: rotateY(30);
+    -webkit-transform: rotateY(30);
+    -moz-transform: rotateY(30);
+    -ms-transform: rotateY(30);
+    -o-transform: rotateY(30);
+}
+
+.card{
+    width: 16rem;
+    border: none;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, var(--black) 0px 3px 7px -3px;
+    margin-right: 2rem;
+    margin-bottom:2rem;
+    overflow: hidden !important;
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+}
+
+.card>img{
+    width: 100%; 
+    height: 12rem;
+    padding: 0rem;
+}
+
+.card .card-text{
+    font-size: small;
+    font-weight: 300;
+}
+
+.card>img:hover{
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+.admin-access{
+    display: flex;
+    justify-content: end;
+}
+
+.reviews{
+    margin-bottom: 2rem;
+    display: flex;
+    font-size: smaller;
+    font-weight: 400;
+    vertical-align: bottom;
+    margin-top: 0.4rem;
+}
+
+.reviews .MuiChip-root{
+    
+    margin-right: 0.4rem;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 0;
+    border-radius: 0.3rem;
+    border-bottom-left-radius: calc(1);
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}
+
+.reviews .MuiChip-root span{
+    font-size: smaller;
+    padding: 0.3rem;
+}
+
+.card-price{
+    text-align: end;
+    margin-bottom: 0.4rem;
+    margin-right: 0.4rem;
+}
+.card-price span{
+    font-size: small;
+    font-weight: 300;
+}
+
+.card-price .amount{
+    font-size: medium;
+    font-weight: bold;
+}

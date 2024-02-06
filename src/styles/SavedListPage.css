@@ -1,0 +1,29 @@
+.no-fav-message {
+    position: relative;
+    top:0rem;
+    left: 8em;
+    text-align: center;
+    padding: 0.4rem;
+    background-color: var(--off-white);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.no-fav-message>*{
+    margin: 0.2rem;
+    padding: 0;
+}
+
+.saved-list-page h1{
+    margin-left: -2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.saved-list-page p{
+    margin-top: 0;
+    padding-top: 0;
+}

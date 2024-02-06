@@ -1,0 +1,36 @@
+
+ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 1.5rem;
+}
+
+.nav-header li button{
+    padding: 0.5rem;
+    border: 1pt var(--blue) solid;
+}
+
+.nav-header li button:hover {
+    border: 1pt var(--white) solid;
+    border-radius: 0.5rem;
+    background-color: var(--button-hover-navy);
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.nav-header button>a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.nav-header svg{
+    padding: 0;
+    width:1.3rem;
+    height: 1.3rem;
+    margin: 0;
+    margin-left: 0.4rem;
+    position: relative;
+    top: 0.3rem;
+}

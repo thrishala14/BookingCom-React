@@ -1,0 +1,33 @@
+.footer-one{
+    background-color: var(--blue);
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+}
+
+.footer-one>button{
+    text-align: center;
+    border: 1pt var(--white) solid;
+    border-radius:0.5rem;
+    padding: 0.5rem;
+
+}
+
+.footer-two>a {
+    padding: 0.5rem;
+    color: var(--white);
+    font-size: small;
+}
+
+.footer-two>a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-two{
+    background-color: var(--blue);
+    margin-top: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.1rem;
+}

@@ -1,0 +1,103 @@
+.accordion {
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 2rem;
+  cursor: pointer;
+  width: 95%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  z-index: 1;
+  padding: 0.5rem;
+  justify-content: space-between;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.panel {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 18px;
+  overflow: hidden;
+  width: 90%;
+  border: 0.5pt var(--black) solid;
+  margin-top: -2rem;
+  padding-top: 2rem;
+  z-index: 0;
+  border-top: none;
+  position: relative;
+  left: 0.5rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 90%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.badge-upcoming {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.badge-cancelled {
+  background-color: var(--red);
+  color: var(--black);
+}
+
+.panel table {
+  width: 60%;
+}
+
+.panel h4 {
+  margin: 0;
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.panel td {
+  font-weight: 300;
+  padding-left: 4.5rem;
+}
+
+.panel th {
+  font-weight: 400;
+}
+
+.panel table p {
+  margin-top: 0;
+  padding-top: 0;
+  color: var(--subtext-grey);
+}
+
+.panel table button {
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+
+.panel > div > p {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 1pt;
+  margin-bottom: 0;
+}
+
+.accordion p{
+  color: white;
+}

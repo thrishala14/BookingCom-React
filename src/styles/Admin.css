@@ -1,0 +1,13 @@
+.admin h2{
+    color: var(--black);
+}
+
+form{
+    margin-left: 30%;
+}
+
+form >.MuiFormControl-root {
+    display: grid;
+    margin: 0.5rem;
+    width:60%;
+}

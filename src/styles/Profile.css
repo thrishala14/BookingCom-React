@@ -1,0 +1,142 @@
+.profile-page{
+    display: flex;
+}
+
+
+.profile-page td{
+    padding: 0.8rem;
+}
+
+
+.profile-page .row-head{
+    font-weight: bold;
+    color: var(--row-head-label-grey);
+}
+
+.sidenav {
+    width: 20rem;
+    z-index: 1;
+    overflow-x: hidden;
+    padding: 8px 0;
+    width:24rem;
+  }
+  
+  .sidenav a {
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 11pt;
+    display: block;
+    color: var(--balck);
+  }
+
+  .sidenav a:hover{
+    color: var(--row-head-label-grey);
+    text-decoration: underline;
+  }
+  
+  .sidenav-table td{
+    border: 0.7pt var(--border-grey) solid;
+  }
+
+  .sidenav-table{
+    margin: 0;
+    border-collapse: collapse;
+    margin-left: 2rem;
+    width:18rem;
+}
+
+.sidenav-table svg{
+    margin-right: 0.8rem;
+}
+
+.details h1{
+  font-weight: bold;
+  font-size:xx-large;
+  color: var(--black);
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.details>p{
+  margin-top: 0;
+}
+
+.details-table td{
+  border-top: 0.8pt var(--subtext-grey) solid;
+  border-bottom:  0.8pt var(--subtext-grey) solid;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.details-table{
+  border-collapse: collapse;
+  width: 40rem;
+}
+
+.details input{
+  width:20rem;
+}
+
+.details-table button {
+  padding: 0.3rem;
+  color: var(--button-blue);
+  background-color: var(--off-white);
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+
+.details-table button:hover{
+  color: var(--button-blue);
+  background-color: var(--off-white);
+  cursor: pointer;
+}
+
+.profile-photo{
+  margin-top: 0;
+  padding-top: 0;
+  width: 5rem;
+  height: 5rem;
+  margin-left: 12rem;
+ 
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  clip-path: circle();
+}
+
+.profile-photo>img{
+  width: 5rem;
+  height: 5rem;
+  overflow-inline: hidden;
+  padding-top: 0;
+}
+
+.profile-photo> div{
+  background-color: rgba(128, 128, 128, 0.753);
+  position: relative;
+  top: -1.5rem;
+  left: -0.4rem;
+}
+
+.profile-photo>div>svg{
+  position: relative;
+  left: 2.5rem;
+  top: -0.1rem;
+  color: white;
+  cursor: pointer;
+  font-size: smaller;
+}
+
+.profile-photo-update >input{
+  width: 15rem !important;
+}
+
+.profile-photo-update{
+  display: block;
+}
